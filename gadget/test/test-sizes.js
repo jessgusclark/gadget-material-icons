@@ -26,7 +26,7 @@ describe('test', function() {
 
 	});
 
-	it('should return blue for the first color', function(){
+	it('should return small for the first size', function(){
 
 		assert.equal("Small", sizeArray[0].name);
 		assert.equal("s", sizeArray[0].class);
