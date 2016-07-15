@@ -1,4 +1,4 @@
-# gadget-material-icons - UNDER DEVELOPMENT [![Build Status](https://travis-ci.org/jessgusclark/gadget-swapcontent.svg?branch=master)](https://travis-ci.org/jessgusclark/gadget-swapcontent)
+# gadget-material-icons - UNDER DEVELOPMENT
 
 A OUCampus gadget and xsl transformation that allows users to insert Google's Material icons.
 
