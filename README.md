@@ -1,4 +1,5 @@
-# gadget-material-icons - UNDER DEVELOPMENT
+# gadget-material-icons - UNDER DEVELOPMENT [![Build Status](https://travis-ci.org/jessgusclark/gadget-swapcontent.svg?branch=master)](https://travis-ci.org/jessgusclark/gadget-swapcontent)
+
 A OUCampus gadget and xsl transformation that allows users to insert Google's Material icons.
 
 This repository contains three sections:
@@ -12,5 +13,7 @@ This repository contains three sections:
 ``` 
 
 npm install
+
+gulp build
 
 ```
