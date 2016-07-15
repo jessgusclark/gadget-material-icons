@@ -33,6 +33,15 @@ $(document).ready(function () {
 
 		});
 
+		// Create size object and call getSizes with
+		// the URL to the sizes:
+		var size = sizes();
+		
+		var sizeArray = size.getSizes("settings/size.json").then(function(data){
+			for (i = 0; i < data.length; i++) {
+    			$('#size').append( new Option( data[i].name, data[i].class ) );
+			}
+		});
 
 	});
 
