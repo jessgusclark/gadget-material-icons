@@ -15,4 +15,15 @@ At a bare minimum, add this:
 
 ## Customizations
 
-The code below is additional code that is used for sizes and colors of the icons.
+The code in [icons.css](icons.css) is additional code that is used for sizes and colors of the icons. It needs to be added to the page's CSS.
+
+### Additional Sizes
+
+To add additional sizes, add an additional style to the [icons.css](icons.css) file with the `font-size`. Then add an additional object in the [../gadget/dist/settings/size.json](size.json) file with the format below. the class name should match the class name in the [icons.css](icons.css) file.
+
+```	
+{
+	"name" : "DisplayName",
+	"class" : "xl"
+}
+```

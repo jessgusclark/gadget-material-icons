@@ -2,19 +2,19 @@
 	"size" : [
 		{
 			"name" : "Small",
-			"class" : "icon-sm"
+			"class" : "sm"
 		},
 		{
 			"name" : "Medium",
-			"class" : "icon-md"
+			"class" : "md"
 		},
 		{
 			"name" : "Large",
-			"class" : "icon-lg"
+			"class" : "lg"
 		},
 		{
 			"name" : "Extra Large",
-			"class" : "icon-xl"
+			"class" : "xl"
 		}
 	]
 }
