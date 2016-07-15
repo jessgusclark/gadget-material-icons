@@ -27,3 +27,14 @@ To add additional sizes, add an additional style to the [icons.css](icons.css) f
 	"class" : "xl"
 }
 ```
+
+### Additional Colors
+
+Same process as the sizes. Add colors to [icons.css](icons.css) then add an object to [colors.json](../gadget/dist/settings/colors.json) with the format below:
+
+```	
+{
+	"name" : "DisplayColor",
+	"class" : "yellow"
+}
+```

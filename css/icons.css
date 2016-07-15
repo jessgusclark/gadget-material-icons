@@ -3,3 +3,9 @@
 .material-icons.md {font-size: 50px;}
 .material-icons.lg {font-size: 100px;}
 .material-icons.xl {font-size: 200px;}
+
+/* Colors: */
+.material-icons.blue {color:#013C66}
+.material-icons.gold {color:#F6B000}
+.material-icons.gray {color:#EBEBEB}
+.material-icons.black {color:#000}
