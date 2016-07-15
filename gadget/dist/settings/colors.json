@@ -11,6 +11,10 @@
 		{
 			"name" : "Light Gray",
 			"class" : "light-gray"
+		},
+		{
+			"name" : "Black",
+			"class" : "black"
 		}
 	]
 }

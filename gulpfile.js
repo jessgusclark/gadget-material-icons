@@ -8,7 +8,6 @@ var rename = require("gulp-rename");
 
 //for testing:
 var mocha = require('gulp-mocha');
-var concat = require('gulp-concat');
 
 //default task:
 gulp.task('default', ['sass', 'scripts']);
@@ -33,7 +32,7 @@ gulp.task('sass', function () {
 });
 
 gulp.task('scripts', function() {
-  return gulp.src(['./gadget/src/gadgetlib.js', './gadget/src/js/*.js' ])
+  return gulp.src([/*'./gadget/src/gadgetlib.js',*/ './gadget/src/js/*.js' ])
     .pipe(concat('gadget.js'))
     .pipe(gulp.dest('./gadget/dist/js/'))
     .pipe(uglify())
