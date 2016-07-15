@@ -4,7 +4,7 @@ var sizes = (function(){
 	return {
 
 		getSizes : function(url){
-			console.log("getting sizes");
+
 			// create a custom promise():
 			var deferred = new $.Deferred();
 

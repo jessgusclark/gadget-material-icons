@@ -10,7 +10,7 @@ $(document).ready(function () {
 
 	gadget.ready().then(gadget.fetch).then(function () {
 
-		console.log("Gadget Material Icons Start");
+		//console.log("Gadget Material Icons Start");
 
 		// Set global variables:
 		apihost = gadget.get('apihost');
@@ -56,7 +56,7 @@ $(document).ready(function () {
 		$("#insert").click(function(){
 
 			// create html object:
-			var iconCode = html();
+			var iconCode = htmlBuilder();
 
 			// insert icon into page:
 			gadget.oucInsertAtCursor(

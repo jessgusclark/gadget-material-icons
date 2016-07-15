@@ -1,4 +1,4 @@
-var html = (function(){
+var htmlBuilder = (function(){
 
 	return {
 
@@ -14,5 +14,5 @@ var html = (function(){
 });
 
 try{
-module.exports.html = html();
+module.exports.htmlBuilder = htmlBuilder();
 }catch(err){}

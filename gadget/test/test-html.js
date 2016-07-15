@@ -7,7 +7,7 @@ var assert = require('chai').assert
 	apphtml = require('../src/js/html.js');
 
 describe('build html', function() {
-	var html = apphtml.html;
+	var html = apphtml.htmlBuilder;
 
 	it('should return formatted html', function(){
 
