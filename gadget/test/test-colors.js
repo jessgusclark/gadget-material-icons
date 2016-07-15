@@ -12,7 +12,7 @@ describe('test', function() {
 	var colors = app.colors;
 
 	// JS testing does not do well with AJAX calls. So Stub in the data:
-	var stubData = JSON.parse('[{"name":"blue","class":"blueish"},{"name":"gold","class":"goldish"},{"name":"gray","class":"grayish"}]');
+	var stubData = JSON.parse('{"colors":[{"name":"Blue","class":"blue"},{"name":"Gold","class":"gold"},{"name":"Gray","class":"gray"},{"name":"Black","class":"black"}]}');
 	colors.getColors = sinon.stub().returns(stubData);
 
 	// call the function once:
@@ -20,16 +20,16 @@ describe('test', function() {
 		colors.getColors("../../dist/settings/colors.json");
 
 	//test it!
-	it('should return 3 colors', function(){
+	it('should return 4 colors', function(){
 
-		assert.equal(3, colorArray.length);
+		assert.equal(4, colorArray.colors.length);
 
 	});
 
 	it('should return blue for the first color', function(){
 
-		assert.equal("blue", colorArray[0].name);
-		assert.equal("blueish", colorArray[0].class);
+		assert.equal("Blue", colorArray.colors[0].name);
+		assert.equal("blue", colorArray.colors[0].class);
 
 	});
 
