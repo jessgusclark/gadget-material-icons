@@ -56,4 +56,17 @@ $(document).ready(function () {
 
 	});
 
+
+	$("#insert").click(function(){
+
+		var icon = $("#icon option:selected").val();
+		var size = $("#size option:selected").val();
+		var color = $("#color option:selected").val();
+
+		var iconCode = html();
+
+		//iconCode.buildHtml(icon, size, color)
+
+	});
+
 });
