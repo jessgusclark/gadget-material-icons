@@ -5,19 +5,17 @@ $(document).ready(function () {
 	
 	console.log("Document Ready");
 
-	/*var apihost;
+	var apihost;
 	var token;
-	var site;
-	var tagArray = [];*/
 
 	gadget.ready().then(gadget.fetch).then(function () {
 
 		console.log("Gadget Material Icons Start");
 
-		// generic OO javascript testing:
-		var hello = outest();
-		console.log(hello.sayHi("Jesse!"));
-
+		// Set global variables:
+		apihost = gadget.get('apihost');
+        token = gadget.get('token');
+        
 
 		// Create color object and call getColors with 
 		// the url to the colors json file.
