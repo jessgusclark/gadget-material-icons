@@ -15,7 +15,7 @@ $(document).ready(function () {
 		// Set global variables:
 		apihost = gadget.get('apihost');
         token = gadget.get('token');
-        
+
 
 		// Create color object and call getColors with 
 		// the url to the colors json file.
@@ -52,19 +52,26 @@ $(document).ready(function () {
 		});
 
 
+		// event listener:
+		$("#insert").click(function(){
+
+			// create html object:
+			var iconCode = html();
+
+			// insert icon into page:
+			gadget.oucInsertAtCursor(
+				iconCode.buildHtml(
+						$("#icon option:selected").val(),
+						$("#size option:selected").val(),
+						$("#color option:selected").val()
+					)
+				);
+
+		});
+
 	});
 
 
-	$("#insert").click(function(){
 
-		var icon = $("#icon option:selected").val();
-		var size = $("#size option:selected").val();
-		var color = $("#color option:selected").val();
-
-		var iconCode = html();
-
-		//iconCode.buildHtml(icon, size, color)
-
-	});
 
 });
