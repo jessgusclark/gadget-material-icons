@@ -43,6 +43,17 @@ $(document).ready(function () {
 			}
 		});
 
+		// Create icon object and call getIcons with
+		// the URL to the icons:
+		var icon = icons();
+		
+		var iconArray = icon.getIcons("settings/icons.json").then(function(data){
+			for (i = 0; i < data.length; i++) {
+    			$('#icon').append( new Option( data[i].name, data[i].class ) );
+			}
+		});
+
+
 	});
 
 });

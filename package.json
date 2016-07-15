@@ -4,7 +4,7 @@
   "description": "An OUCampus gadget and xsl transformation that allows users to insert Google's Material icons.",
   "main": "index.js",
   "scripts": {
-    "test": "gulp scripts && mocha"
+    "test": "gulp build"
   },
   "repository": {
     "type": "git",
