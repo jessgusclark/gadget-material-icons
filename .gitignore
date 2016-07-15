@@ -8,3 +8,6 @@ nbproject
 .node_history
 
 bower_components
+
+gadget/dist/js/
+gadget/dist/css/
