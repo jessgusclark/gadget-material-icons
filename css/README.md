@@ -10,7 +10,7 @@ Google provides the icons as a font. Instructions on how to install that are loc
 At a bare minimum, add this:
 
 ```
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
 ```
 
 ## Customizations
