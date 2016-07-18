@@ -4,8 +4,8 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#808285;}
-	.st1{fill:#FFFFFF;}
+	.st0{fill:#FFFFFF; fill-opacity:0;}
+	.st1{fill:#808285;}
 </style>
 <rect x="0" class="st0" width="50" height="50"/>
 <rect x="-20.9" y="25.3" transform="matrix(0.7071 0.7071 -0.7071 0.7071 25.8192 -8.083)" class="st1" width="87.2" height="3.6"/>

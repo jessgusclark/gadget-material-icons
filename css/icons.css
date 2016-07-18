@@ -9,3 +9,12 @@
 .material-icons.gold {color:#F6B000}
 .material-icons.gray {color:#EBEBEB}
 .material-icons.black {color:#000}
+
+
+/* Edit Mode 
+The background colors behind the placeholder GIF:
+*/
+img.material-icons.blue {background-color:#013C66}
+img.material-icons.gold {background-color:#F6B000}
+img.material-icons.gray {background-color:#EBEBEB}
+img.material-icons.black {background-color:#000}
