@@ -14,7 +14,7 @@ The final code looks something like this: `<i class="material-icons xl gold">acc
 
 The original idea was a table transformation but a table is a block element and by using an image, users can add icons as inline elements. This also allows the end user the ability to modify the icon after the image has been added:
 
-![Insert/Edit Image][https://raw.githubusercontent.com/jessgusclark/gadget-material-icons/master/xsl/edit-image.jpg]
+![Insert/Edit Image](https://raw.githubusercontent.com/jessgusclark/gadget-material-icons/master/xsl/edit-image.jpg)
 
 * ** Source ** - placeholder image
 * ** Description ** - icon name
