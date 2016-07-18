@@ -1,0 +1,9 @@
+#main {
+  padding: 5px 10px;
+  overflow-x: hidden; }
+
+.form-group {
+  margin-bottom: 5px !important; }
+
+.col-xs-2#icon-example {
+  padding-left: 0; }
