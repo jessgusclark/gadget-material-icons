@@ -1,23 +1,20 @@
 {
 	"icons": [
 		{
-			"name"  : "accessibility",
-			"class" : "accessibility",
-			"group" : "Everyone"
+			"name"  : "Accessibility",
+			"class" : "accessibility"
 		},
 		{
-			"name" : "accessible",
+			"name" : "Accessible",
 			"class" : "accessible"
 		},
 		{
-			"name" : "account balance",
-			"class" : "account_balance",
-			"group" : "Everyone"
+			"name" : "Account Balance",
+			"class" : "account_balance"
 		},
 		{
-			"name" : "account balance wallet",
-			"class" : "account_balance_wallet",
-			"group" : "Everyone"
+			"name" : "Account Balance Wallet",
+			"class" : "account_balance_wallet"
 		}
 	]
 }
