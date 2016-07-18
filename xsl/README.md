@@ -16,6 +16,6 @@ The original idea was a table transformation but a table is a block element and 
 
 ![Insert/Edit Image](https://raw.githubusercontent.com/jessgusclark/gadget-material-icons/master/xsl/edit-image.jpg)
 
-* ** Source ** - placeholder image
-* ** Description ** - icon name
-* ** Class ** - material-icons will be in all icons, then the size and color can be modified from here.
+* Source - placeholder image
+* Description - icon name
+* Class - material-icons will be in all icons, then the size and color can be modified from here.
