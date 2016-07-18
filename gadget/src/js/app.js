@@ -69,7 +69,7 @@ $(document).ready(function () {
 
 			// insert icon into page:
 			gadget.oucInsertAtCursor(
-				iconCode.buildHtml(
+				iconCode.buildTransformation(
 						$("#icon option:selected").val(),
 						$("#size option:selected").val(),
 						$("#color option:selected").val()
