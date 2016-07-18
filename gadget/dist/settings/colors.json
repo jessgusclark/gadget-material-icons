@@ -2,15 +2,15 @@
 	"colors" : [
 		{
 			"name" : "UNC Blue",
-			"class" : "blue"
+			"class" : "UNC-blue"
 		},
 		{
 			"name" : "UNC Gold",
-			"class" : "gold"
+			"class" : "UNC-gold"
 		},
 		{
-			"name" : "Light Gray",
-			"class" : "gray"
+			"name" : "White",
+			"class" : "white"
 		},
 		{
 			"name" : "Black",
