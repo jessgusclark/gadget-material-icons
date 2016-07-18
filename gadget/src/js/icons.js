@@ -12,10 +12,10 @@ var icons = (function(){
 		
 			$.getJSON(url, function( data ) {
 			  
-			  //console.log("getJSON Successs");
+			  var iconpath = data.icons
 
 			  $.each(data.icons, function( key, val ) {
-			  	items.push( {name:val.name, class:val.class, group:val.group} );
+			  	items.push( {name:val.name, class:val.ligature} );
 			  });
 
 			  // attach items array to promise:

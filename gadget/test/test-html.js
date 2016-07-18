@@ -13,11 +13,9 @@ describe('build html', function() {
 	var size = 'sm';
 	var color = 'black';
 
-	it('should return formatted html', function(){
+	it('should return formatted html', function(){		
 
-		
-
-		var expected = '<i class="material-icons icon-sm black">bridge</i>';
+		var expected = '<i class="material-icons">bridge</i>';
 
 		assert.equal(expected, html.buildHtml(icon, size, color));
 	});

@@ -4,8 +4,7 @@ var htmlBuilder = (function(){
 
 		buildHtml : function(icon, size, color){
 
-			return '<i class="material-icons icon-' + size + 
-				' ' + color + '">' + icon + '</i>';
+			return '<i class="material-icons">' + icon + '</i>';
 
 		},
 
