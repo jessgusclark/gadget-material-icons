@@ -4,7 +4,7 @@ var htmlBuilder = (function(){
 
 		buildHtml : function(icon, size, color){
 
-			return '<i class="material-icons ' + size + 
+			return '<i class="material-icons icon-' + size + 
 				' ' + color + '">' + icon + '</i>';
 
 		},
@@ -29,10 +29,10 @@ var htmlBuilder = (function(){
 				break;
 
 				default:
-					px = 30;
+					px = 24;
 			}
 
-			return '<img src="https://www.unco.edu/omni/gadgets/icons/img/placeholder.svg" width="' + px +'" height="' + px + '" />';
+			return '<img src="https://www.unco.edu/omni/gadgets/icons/img/placeholder.svg" class="material-icons ' + size + ' ' + color + '" width="' + px +'" height="' + px + '" alt="' + icon + '" />';
 
 		}
 
