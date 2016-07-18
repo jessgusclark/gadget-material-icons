@@ -162,7 +162,7 @@ var htmlBuilder = (function(){
 					px = 24;
 			}
 
-			return '<img src="https://www.unco.edu/omni/gadgets/icons/img/placeholder.svg" class="material-icons ' + size + ' ' + color + '" width="' + px +'" height="' + px + '" alt="' + icon + '" />';
+			return '<img src="https://jessgusclark.github.io/gadget-material-icons/gadget/dist/img/placeholder.svg" class="material-icons ' + size + ' ' + color + '" width="' + px +'" height="' + px + '" alt="' + icon + '" />';
 
 		}
 
