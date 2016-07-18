@@ -1,4 +1,4 @@
-# gadget-material-icons - [![Build Status](https://travis-ci.org/jessgusclark/gadget-material-icons.svg?branch=master)](https://travis-ci.org/jessgusclark/gadget-material-icons)
+# gadget-material-icons [![Build Status](https://travis-ci.org/jessgusclark/gadget-material-icons.svg?branch=master)](https://travis-ci.org/jessgusclark/gadget-material-icons)
 
 A OUCampus gadget and xsl transformation that allows users to insert Google's Material icons.
 
@@ -8,6 +8,11 @@ This repository contains three sections:
 - **XSL** is a XSL transformation snippet that needs to be added to the snippets file and handles converting the table into the icon code.
 - **gadget** is the gadget that the end users will use to insert [Google's Material Icons](https://design.google.com/icons/) into their sites.
 
+
+## Demo:
+
+
+![Insert/Edit Image](https://raw.githubusercontent.com/jessgusclark/gadget-material-icons/master/img/demo.gif)
 
 ## Quick Install
 
@@ -21,23 +26,23 @@ Add Google's Material Icon Font to your stylesheet:
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
 ```
 
-Add [css/icons.css](custom color and sizes) code to your css or link to this file:
+Add [custom color and sizes](css/icons.css) code to your css or link to this file:
 
 ```
 <link href="https://jessgusclark.github.io/gadget-material-icons/css/icons.css" stylesheet" />
 ```
 
-See [css/](CSS Readme File) for more information.
+See [CSS Readme File](css/README.md) for more information.
 
 ### Step 2: Add XSL Transformation
 
-Add the [xsl/snippet-icon.xsl](xsl transformation) to your XSL folder. If you have a test area, please test it first. Next, link to it in your templates with this code:
+Add the [xsl transformation](xsl/snippet-icon.xsl) to your XSL folder. If you have a test area, please test it first. Next, link to it in your templates with this code:
 
 ```
 <xsl:import href="snippet-icon.xsl"/>
 ```
 
-See [/xsl](XSL Readme File) for more information.
+See [XSL Readme File](xsl/README.md) for more information.
 
 ### Step 3: Install the Gadget via GitHub pages
 
@@ -62,7 +67,7 @@ gulp build
 
 ```
 
-## Contribute
+## Contributing
 
 Contributions are welcomed, if writing JS, please use existing object oriented formatting and write tests to validate code. 
 
