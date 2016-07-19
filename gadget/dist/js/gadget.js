@@ -175,6 +175,10 @@ module.exports.htmlBuilder = htmlBuilder();
 }catch(err){}
 var icons = (function(){
 
+	function sortJsonName(a,b){
+	    return a.name.toLowerCase() > b.name.toLowerCase() ? 1 : -1;
+	}
+
 	// public functions:
 	return {
 
@@ -186,10 +190,10 @@ var icons = (function(){
 			var items = []; 
 		
 			$.getJSON(url, function( data ) {
-			  
-			  var iconpath = data.icons
 
-			  $.each(data.icons, function( key, val ) {
+			  var sorted = $(data.icons).sort( sortJsonName );
+
+			  $.each(sorted, function( key, val ) {
 			  	items.push( {name:val.name, class:val.ligature} );
 			  });
 
