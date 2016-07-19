@@ -11,10 +11,6 @@
 		{
 			"name" : "White",
 			"class" : "white"
-		},
-		{
-			"name" : "Black",
-			"class" : "black"
 		}
 	]
 }

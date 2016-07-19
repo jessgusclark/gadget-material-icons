@@ -11,10 +11,6 @@
 		{
 			"name" : "Large",
 			"class" : "lg"
-		},
-		{
-			"name" : "Extra Large",
-			"class" : "xl"
 		}
 	]
 }
