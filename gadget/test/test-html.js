@@ -22,7 +22,9 @@ describe('build html', function() {
 
 	it ('should return image transformation', function(){
 
-		var expected = '<img src="https://jessgusclark.github.io/gadget-material-icons/gadget/dist/img/placeholder.svg" class="material-icons sm black" width="24" height="24" alt="bridge" />';
+		//var expected = '<img src="https://jessgusclark.github.io/gadget-material-icons/gadget/dist/img/placeholder.svg" class="material-icons sm black" width="24" height="24" alt="bridge" />';
+		var expected = '<img src="{{f:11561794}}" class="material-icons sm black" width="24" height="24" alt="bridge" />';
+
 
 		assert.equal(expected,
 						 html.buildTransformation(icon, size, color));
