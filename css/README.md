@@ -11,6 +11,7 @@ At a bare minimum, add this:
 
 ```
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+<link href="https://jessgusclark.github.io/gadget-material-icons/css/icons.css" rel="stylesheet" />
 ```
 
 ## Customizations
