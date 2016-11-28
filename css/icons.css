@@ -12,8 +12,13 @@
 
 
 /* Edit Mode 
-The background colors behind the placeholder GIF:
+The sizes and background colors behind the placeholder GIF:
 */
+img.material-icons.sm {width:24px; height: 24px;}
+img.material-icons.md {width:50px; height: 50px;}
+img.material-icons.lg {width:100px; height:100px;}
+img.material-icons.xl {width:200px; height:200px;}
+
 img.material-icons.blue {background-color:#013C66}
 img.material-icons.gold {background-color:#F6B000}
 img.material-icons.gray {background-color:#EBEBEB}
